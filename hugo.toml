@@ -72,6 +72,7 @@ time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
 [languages.fa]
+disabled = true  # Desabilita a língua Persa
 languageName ="فارسی"
 contentDir = "content/fa"
 [languages.fa.params]
@@ -79,6 +80,15 @@ title = "اسناد گلدی"
 description = "یک نمونه برای پوسته داکسی"
 time_format_default = "2006.01.02"
 time_format_blog = "2006.01.02"
+
+[languages.pt]
+languageName = "Português (Portugal)"
+contentDir = "content/pt"
+[languages.pt.params]
+title = "Goldydocs"
+description = "Um exemplo do Docsy"
+time_format_default = "02/01/2006"
+time_format_blog = "02/01/2006"
 
 [markup]
   [markup.goldmark]
@@ -135,10 +145,10 @@ github_project_repo = "https://github.com/google/docsy"
 github_branch= "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "d72aa9b2712488cc3"
+# gcs_engine_id = "d72aa9b2712488cc3"
 
 # Enable Lunr.js offline search
-offlineSearch = false
+offlineSearch = true
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
 prism_syntax_highlighting = false
